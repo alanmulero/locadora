@@ -11,6 +11,7 @@ public class Titulo {
 	private int divisor;
 
 	public Titulo(String nome, int duracao) {
+
 		this.nome = nome;
 		this.duracao = duracao;
 		total++;
@@ -47,13 +48,14 @@ public class Titulo {
 		return avaliacao;
 	}
 
-	public void fichaCadastral(String nome) {
+	public void fichaCadastral() {
+		System.out.println();
 		System.out.println("Nome do filme ou série: " + getNome());
 		System.out.println("Total notas da Avaliação: " + totalAvaliacao);
 		System.out.println("Duração em minutos: " + getDuracao());
 		System.out.println("Quantidade de filmes ou séries avaliados: " + this.total);
 		System.out.println("Média da avaliação: " + getMedia());
-		System.out.println();
+		
 
 	}
 }

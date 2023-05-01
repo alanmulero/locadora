@@ -13,7 +13,13 @@ public class Executa {
 		filme.setAvaliacao(3);
 		filme.setAvaliacao(10);
 		filme.setDiretor("Teste");
-		filme.fichaCadastral("Matrix");
+		filme.fichaCadastral();
+		
+		Filmes filme2 = new Filmes("Outubro Vermelho", 110);
+		filme2.setAvaliacao(10);
+		filme2.setAvaliacao(9);
+		filme2.setDiretor("Teste2");
+		filme2.fichaCadastral();
 		
 		
 		// Instanciando series
@@ -21,9 +27,9 @@ public class Executa {
 		serie.setAvaliacao(8);
 		serie.setAvaliacao(5);
 		serie.setAvaliacao(3);
-		//serie.setCapitulosPorTemporadas(10);
-		//serie.setTemporadas(9);
-		serie.fichaCadastral("Lost");
+		serie.setCapitulosPorTemporadas(2);
+		serie.setTemporadas(3);
+		serie.fichaCadastral();
 		
 		
 		
